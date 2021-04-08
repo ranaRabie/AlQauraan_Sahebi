@@ -11490,6 +11490,23 @@ header {
   color: #777;
 }
 
+.projs-wrapper .proj-item {
+  margin-bottom: 1.5rem;
+}
+
+.projs-wrapper .proj-item img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.projs-wrapper .proj-item h6 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
 #testmonials .tes-item {
   max-width: 900px;
   margin: 0 auto;
