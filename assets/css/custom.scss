@@ -147,7 +147,14 @@ a.text-underline:hover{text-decoration: none;}
         margin: 5px;
         font-family: 'BahijBold', sans-serif;
     }
-
+    .nav-item{
+        &.active{
+            .nav-link{
+                color: $main-color;
+                border-bottom: 2px solid;
+            }
+        }
+    }
 
 }
 
@@ -842,6 +849,19 @@ footer {
             width: 40%;
             margin: auto;
             margin-top: -22%;
+        }
+        .footer-list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                display: block;
+                margin: 0 .7rem;
+                color: #fff;
+                &:hover{
+                    color: rgba($color: #fff, $alpha: 0.5);
+                }
+            }
         }
     }
 
